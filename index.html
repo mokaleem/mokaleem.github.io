@@ -1,9 +1,489 @@
-<html>
-	<head>
-		<title></title>
-	</head>
-	
-	<body>
-		Hi
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <title>Kaleem's CV</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="sidebar">
+        <div class="profile-picture-container">
+          <img
+            src="./img/profile.jpeg"
+            alt="Your Name"
+            class="profile-picture"
+          />
+        </div>
+        <p class="name">Kaleem Malack</p>
+        <ul>
+          <li style="margin-top: 2em"><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#publication">Publication</a></li>
+          <li><a href="#certification">Certification</a></li>
+        </ul>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/mo-kaleem/"
+            target="_blank"
+            class="social-icon linkedin"
+          >
+            <img src="./img/linkedin.png" alt="LinkedIn" />
+          </a>
+          <a
+            href="https://github.com/mokaleem"
+            target="_blank"
+            class="social-icon github"
+          >
+            <img src="./img/github.png" alt="GitHub" />
+          </a>
+        </div>
+      </nav>
+
+      <main class="content">
+        <section id="about">
+          <h2>About</h2>
+          As a Tech Lead and with around 11 years of experience in the industry,
+          I've transitioned from hands-on coding as a Full Stack Developer to
+          leading the strategic direction of products. I've always been
+          committed to translating company visions into tangible results,
+          through code, product strategy and execution.
+        </section>
+
+        <section id="experience">
+          <h2>Experience</h2>
+          <!-- ETG -->
+          <div class="experience-item">
+            <div class="experience-header">
+              <span class="company"
+                >Verizon <span class="type">(Contract)</span></span
+              >
+              <span class="duration">June 2022 - Present</span>
+            </div>
+            <div class="designation-location">
+              <span class="designation">Technical Lead</span>
+              <span class="location">Dallas Area, Texas</span>
+            </div>
+            <ul class="responsibilities">
+              <li>
+                Spearheaded the technical development and vision of the Alarm
+                Collector app, developed with Node.js, ensuring its architecture
+                was robust and scalable.
+              </li>
+              <li>
+                Worked hand-in-hand with business, Scrum Master, and a team of
+                developers, facilitating a unified approach to app development
+                and ensuring alignment with the product vision and business
+                objectives.
+              </li>
+              <li>
+                Successfully navigated the app through to launch, implementing
+                solutions that notably saved the company $100K USD per quarter
+                on server costs.
+              </li>
+              <li>
+                Demonstrated deep proficiency in utilizing Node.js, Elastic
+                Search, and Docker, to develop, test, and deploy the
+                application, ensuring optimal functionality and user experience.
+              </li>
+            </ul>
+            <p class="tech-stack">
+              <strong>Tech stack:</strong> JavaScript - React - Redux - Jest -
+              Node - Oracle - Elastic Search - Docker - Semantic UI - Material
+              UI
+            </p>
+          </div>
+
+          <!-- CME -->
+          <div class="experience-item">
+            <div class="experience-header">
+              <span class="company">CME Group</span>
+              <span class="duration">Nov 2021 - Apr 2022</span>
+            </div>
+            <div class="designation-location">
+              <span class="designation">Senior Software Engineer</span>
+              <span class="location">Bangalore, India</span>
+            </div>
+            <ul class="responsibilities">
+              <li>
+                Helped the company in implementing rapid UI development based on
+                JSON data.
+              </li>
+              <li>
+                Oversaw generic component development that is both user-friendly
+                and consistent with the overall look and feel of the company’s
+                products.
+              </li>
+              <li>
+                Rewrote multi-page app to single page application thus improving
+                the user experience of rapidly updating data.
+              </li>
+            </ul>
+            <p class="tech-stack">
+              <strong>Tech stack:</strong> JavaScript - TypeScript - React -
+              Jest - Node - Mongo - Mongoose - Oracle - AWS - Bootstrap - SCSS
+            </p>
+          </div>
+
+          <!-- Infosys -->
+          <div class="experience-item">
+            <div class="experience-header">
+              <span class="company"
+                >Verizon <span class="type">(Contract)</span></span
+              >
+              <span class="duration">Aug 2020 - Nov 2021</span>
+            </div>
+            <div class="designation-location">
+              <span class="designation">Senior Consultant</span>
+              <span class="location">Chennai, India</span>
+            </div>
+            <ul class="responsibilities">
+              <li>
+                Identified and fixed security vulnerabilities in the application
+              </li>
+              <li>
+                Created and enforced reusable component and endpoint thus
+                reducing the app bundle size by 20%
+              </li>
+              <li>
+                Lead a team of six UI developers by working closely with SM in
+                assigning task and estimation planning
+              </li>
+            </ul>
+            <p class="tech-stack">
+              <strong>Tech stack:</strong> JavaScript - React - Oracle - Redux -
+              Bootstrap - SCSS - Jest
+            </p>
+          </div>
+
+          <!-- Cognizant -->
+          <div class="experience-item">
+            <div class="experience-header">
+              <span class="company"
+                >Pearson
+                <span class="type">(Contract)</span>
+              </span>
+              >
+              <span class="duration">Apr 2019 - Aug 2020</span>
+            </div>
+            <div class="designation-location">
+              <span class="designation">Senior Associate</span>
+              <span class="location">Chennai, India</span>
+            </div>
+            <ul class="responsibilities">
+              <li>
+                Redesigned the way primary school students login to the library
+                thus reducing password reset requests by over 70%.
+              </li>
+              <li>
+                Designed and developed student performance analytics helping
+                teachers identify students who need extra attention.
+              </li>
+              <li>
+                Implemented caching for page navigation which lead to
+                performance improvement of over 60%.
+              </li>
+              <li>
+                Helped the company by adding features to book reading app used
+                by millions of users across the Pearson Product Suite
+              </li>
+            </ul>
+            <p class="tech-stack">
+              <strong>Tech stack:</strong> JavaScript - React - Node - Flux -
+              jQuery - Bootstrap
+            </p>
+          </div>
+
+          <!-- Wipro -->
+          <div class="experience-item">
+            <div class="experience-header">
+              <span class="company"
+                >Apple Inc
+                <span class="type">(Contract)</span>
+              </span>
+              >
+              <span class="duration">Sept 2018 - Apr 2019</span>
+            </div>
+            <div class="designation-location">
+              <span class="designation">Technical Lead</span>
+              <span class="location">Chennai, India</span>
+            </div>
+            <ul class="responsibilities">
+              <li>
+                Developed UI microservice to be used in applications across
+                various teams in Apple Online Store.
+              </li>
+              <li>
+                Developed Debugger application for various services used in AOS
+                across the world.
+              </li>
+              <li>
+                Helped Apple migrate legacy code base to Single Page Application
+                on React using microservice-based UI improving performance and
+                look & feel of the application.
+              </li>
+            </ul>
+            <p class="tech-stack">
+              <strong>Tech stack:</strong> JavaScript - React - Node - Mongo -
+              Mongoose - Oracle - AWS - SCSS - Jest
+            </p>
+          </div>
+
+          <!-- TVS -->
+          <div class="experience-item">
+            <div class="experience-header">
+              <span class="company"
+                >eXact Learning Solution
+                <span class="type">(Contract)</span>
+              </span>
+              >
+              <span class="duration">Apr 2016 - Sept 2018</span>
+            </div>
+            <div class="designation-location">
+              <span class="designation">Senior Software Engineer</span>
+              <span class="location">Chennai, India</span>
+            </div>
+            <ul class="responsibilities">
+              <li>
+                Helped in migration of LCMS from standalone app to cloud-based
+                app resulting in better user experience and new clients.
+              </li>
+              <li>
+                Developed new features across various testing methodologies to
+                be used by trainers, academia, and companies.
+              </li>
+              <li>
+                Developed a system to analyze different testing methods used by
+                various clients to package LCMS catering to various clients
+                improving sales
+              </li>
+            </ul>
+            <p class="tech-stack">
+              <strong>Tech stack:</strong> TypeScript - JavaScript - XML - LESS
+              - jQuery - Jasmine
+            </p>
+          </div>
+
+          <!-- QU -->
+          <div class="experience-item">
+            <div class="experience-header">
+              <span class="company">QU Management </span>
+              >
+              <span class="duration">Aug 2013 - Nov 2015</span>
+            </div>
+            <div class="designation-location">
+              <span class="designation">Senior Project Engineer</span>
+              <span class="location">Kuala Lumpur, Malaysia</span>
+            </div>
+            <ul class="responsibilities">
+              <li>
+                Designed, Developed, and Maintained client's website on a
+                regular basis
+              </li>
+              <li>
+                Implemented Responsive Web Design for all clients using
+                Bootstrap
+              </li>
+              <li>
+                Updated and Maintained WordPress sites to add customer-requested
+                features
+              </li>
+            </ul>
+            <p class="tech-stack">
+              <strong>Tech stack:</strong> HTML - CSS - jQuery - Bootstrap -
+              JavaScript - PHP
+            </p>
+          </div>
+        </section>
+
+        <!-- Skill Section -->
+        <section id="skills">
+          <h2>Skills</h2>
+
+          <div class="skills-container">
+            <div class="skill primary" title="HTML">HTML</div>
+            <div class="skill primary" title="CSS">CSS</div>
+            <div class="skill primary" title="CSS">JavaScript</div>
+            <div class="skill primary" title="CSS">TypeScript</div>
+            <div class="skill primary" title="CSS">React</div>
+            <div class="skill primary" title="CSS">Node</div>
+            <div class="skill primary" title="CSS">SQL</div>
+            <div class="skill primary" title="CSS">Mongo</div>
+          </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+          <h2>Education</h2>
+
+          <div class="education-item">
+            <p class="degree">MSc in Mechatronics Engineering</p>
+            <p class="specialization">
+              Specialization: AI - ML - Control Systems - Robotics
+            </p>
+            <p class="university">
+              International Islamic University Malaysia (IIUM), Kuala Lumpur
+            </p>
+          </div>
+
+          <div class="education-item">
+            <p class="degree">
+              Bachelor of Engineering in Electronics & Communication
+            </p>
+            <p class="specialization">
+              Specialization: Electronics - Communication - Computer Science
+            </p>
+            <p class="university">Anna University, Chennai</p>
+          </div>
+        </section>
+
+        <section id="publication">
+          <h2>Publications</h2>
+
+          <div class="publication-item">
+            <div class="title-year">
+              <a
+                href="https://www.researchgate.net/profile/Nouby-Ghazaly/publication/338052039_Analysis_of_Active_Suspension_Control_Policies_for_Vehicle_using_Robust_Controllers/links/5dfbc8f74585159aa48a308c/Analysis-of-Active-Suspension-Control-Policies-for-Vehicle-using-Robust-Controllers.pdf"
+                target="_blank"
+                class="paper-title"
+              >
+                Analysis of active suspension control policies for vehicle using
+                robust controllers
+              </a>
+              <span class="pub-year">2019</span>
+            </div>
+            <p class="authors">M Kaleemullah, W Faris, NM Ghazaly</p>
+            <p class="publisher">
+              International Journal of Advanced Science and Technology
+            </p>
+          </div>
+
+          <div class="publication-item">
+            <div class="title-year">
+              <a
+                href="https://www.researchgate.net/profile/Nouby-Ghazaly/publication/338051938_Control_of_Active_Suspension_System_using_Robust_H_control_with_Genetic_Algorithm/links/5dfbc7734585159aa48a2f79/Control-of-Active-Suspension-System-using-Robust-H-control-with-Genetic-Algorithm.pdf"
+                target="_blank"
+                class="paper-title"
+              >
+                Control of active suspension system using robust H∞ control with
+                genetic algorithm
+              </a>
+              <span class="pub-year">2019</span>
+            </div>
+            <p class="authors">M Kaleemullah, WF Faris, F Hasbullah</p>
+            <p class="publisher">
+              International Journal of Advanced Science and Technology
+            </p>
+          </div>
+
+          <div class="publication-item">
+            <div class="title-year">
+              <a
+                href="https://www.inderscienceonline.com/doi/abs/10.1504/IJVSMT.2014.066512"
+                target="_blank"
+                class="paper-title"
+              >
+                Active suspension control of vehicle with uncertainties using
+                robust controllers
+              </a>
+              <span class="pub-year">2014</span>
+            </div>
+            <p class="authors">M Kaleemullah, WF Faris</p>
+            <p class="publisher">
+              International Journal of Vehicle Systems Modelling and Testing
+            </p>
+          </div>
+
+          <div class="publication-item">
+            <div class="title-year">
+              <a
+                href="https://www.inderscienceonline.com/doi/abs/10.1504/IJVNV.2012.051541"
+                target="_blank"
+                class="paper-title"
+              >
+                Comparative analysis of LQR and robust controller for active
+                suspension
+              </a>
+              <span class="pub-year">2012</span>
+            </div>
+            <p class="authors">
+              M Kaleemullah, WF Faris, MM Rashid, F Hasbullah
+            </p>
+            <p class="publisher">
+              International Journal of Vehicle Noise and Vibration
+            </p>
+          </div>
+
+          <div class="publication-item">
+            <div class="title-year">
+              <a
+                href="https://ieeexplore.ieee.org/abstract/document/5937197"
+                target="_blank"
+                class="paper-title"
+              >
+                Design of robust H∞, fuzzy and LQR controller for active
+                suspension of a quarter car model
+              </a>
+              <span class="pub-year">2011</span>
+            </div>
+            <p class="authors">M Kaleemullah, WF Faris, F Hasbullah</p>
+            <p class="publisher">
+              IEEE - International Conference on Mechatronics (ICOM)
+            </p>
+          </div>
+        </section>
+
+        <section id="certification">
+          <h2>Certifications</h2>
+
+          <div class="certification-item">
+            <p class="certification-name">Google Project Management</p>
+            <p class="issuer">Coursera</p>
+          </div>
+          <div class="certification-item">
+            <p class="certification-name">SAFe Agile</p>
+            <p class="issuer">SAFe</p>
+          </div>
+          <div class="certification-item">
+            <p class="certification-name">Corda Certified Developer</p>
+            <p class="issuer">R3</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      document.querySelectorAll('.sidebar a').forEach((anchor) => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+          });
+        });
+      });
+    </script>
+  </body>
 </html>

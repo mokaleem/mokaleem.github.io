@@ -1,0 +1,259 @@
+body {
+  font-family: 'Special Elite', cursive;
+  background-color: #f8f2e3;
+  color: #3e3e3e;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #dcd6c9;
+  border-right: 5px solid #3e3e3e;
+  padding: 20px;
+  box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  border-top: 2px solid #3e3e3e;
+}
+
+.sidebar li {
+  margin-bottom: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.sidebar li:hover {
+  color: #a5917b;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sidebar a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover,
+.sidebar a:focus {
+  color: #a5917b;
+}
+
+.profile-picture-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  border-radius: 50%; /* Makes the image circular */
+  width: 120px; /* Adjust size as needed */
+  height: 120px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px; /* Space between list and social media icons */
+}
+
+li a {
+  /* Styling for individual list items/links */
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-icon {
+  margin-right: 10px; /* Space between social media icons */
+}
+
+.social-icon img {
+  width: 30px; /* Adjust icon size as needed */
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 2px solid #3e3e3e;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.experience-item {
+  margin-bottom: 30px;
+}
+
+.experience-header,
+.designation-location {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75em;
+}
+
+.location {
+  font-size: 0.8em; /* Adjusts font size for city name, ensuring it's in harmony with the designation text */
+  font-style: italic; /* Italicizes the city name */
+  align-self: flex-end; /* Aligns the city name to the bottom of the line */
+}
+
+.company {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.duration {
+  font-style: italic;
+}
+
+.designation {
+  margin: 0;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.responsibilities {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.responsibilities li {
+  margin-bottom: 10px;
+}
+
+.tech-stack {
+  font-size: 0.9em;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Adjust the gap between skills as per your design */
+}
+
+.skill {
+  padding: 10px;
+  border: 1px solid #000;
+  margin: 5px;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.primary {
+  background-color: #fafad2; /* Light golden background for primary skills */
+  color: #000; /* Dark text color for contrast */
+  border-color: #daa520; /* Golden border for primary skills */
+}
+
+.secondary {
+  background-color: #f0f0f0; /* Light grey background for secondary skills */
+  color: #808080; /* Grey text color for secondary skills */
+  border-color: #c0c0c0; /* Grey border for secondary skills */
+}
+
+/* Education styles */
+.education-item {
+  margin-bottom: 20px;
+}
+
+.degree {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.specialization {
+  margin-bottom: 5px;
+  font-style: italic;
+  color: #555555; /* Giving a subtle grey to specialization */
+}
+
+.university {
+  margin-bottom: 5px;
+  text-transform: uppercase; /* Making university text uppercase */
+  letter-spacing: 1px; /* Adding some spacing between letters */
+  color: #000000; /* Maintaining a dark color for visibility */
+}
+
+/* Publication section */
+.publication-item {
+  margin-bottom: 25px;
+}
+
+.paper-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.pub-year {
+  font-size: 1em;
+  font-weight: bold;
+  margin-left: 20px; /* Optional: Add space between title and year if needed */
+}
+
+.title-year {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.authors,
+.publisher {
+  margin-bottom: 5px;
+  font-size: 0.85em;
+  margin: 5px;
+}
+
+.authors {
+  font-style: italic;
+  color: #555;
+}
+
+.publisher {
+  color: #333;
+}
+
+/* Certificate Section */
+.certification-item {
+  margin-bottom: 20px;
+}
+
+.certification-name {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.issuer {
+  font-size: 1.2em;
+  font-style: italic;
+  color: #555;
+}
