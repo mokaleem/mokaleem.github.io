@@ -66,19 +66,17 @@ body {
 }
 
 .profile-picture {
-  border-radius: 50%; /* Makes the image circular */
-  width: 120px; /* Adjust size as needed */
+  border-radius: 50%;
   height: 120px;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
-  margin-bottom: 20px; /* Space between list and social media icons */
+  margin-bottom: 20px;
 }
 
 li a {
-  /* Styling for individual list items/links */
   text-decoration: none;
   color: #000;
   font-size: 1.2em;
@@ -89,11 +87,11 @@ li a {
 }
 
 .social-icon {
-  margin-right: 10px; /* Space between social media icons */
+  margin-right: 10px;
 }
 
 .social-icon img {
-  width: 30px; /* Adjust icon size as needed */
+  width: 30px;
 }
 
 h2 {
@@ -115,9 +113,9 @@ h2 {
 }
 
 .location {
-  font-size: 0.8em; /* Adjusts font size for city name, ensuring it's in harmony with the designation text */
-  font-style: italic; /* Italicizes the city name */
-  align-self: flex-end; /* Aligns the city name to the bottom of the line */
+  font-size: 0.8em;
+  font-style: italic;
+  align-self: flex-end;
 }
 
 .company {
@@ -152,7 +150,7 @@ h2 {
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px; /* Adjust the gap between skills as per your design */
+  gap: 15px;
 }
 
 .skill {
@@ -164,15 +162,15 @@ h2 {
 }
 
 .primary {
-  background-color: #fafad2; /* Light golden background for primary skills */
-  color: #000; /* Dark text color for contrast */
-  border-color: #daa520; /* Golden border for primary skills */
+  background-color: #fafad2;
+  color: #000;
+  border-color: #daa520;
 }
 
 .secondary {
-  background-color: #f0f0f0; /* Light grey background for secondary skills */
-  color: #808080; /* Grey text color for secondary skills */
-  border-color: #c0c0c0; /* Grey border for secondary skills */
+  background-color: #f0f0f0;
+  color: #808080;
+  border-color: #c0c0c0;
 }
 
 /* Education styles */
@@ -189,14 +187,14 @@ h2 {
 .specialization {
   margin-bottom: 5px;
   font-style: italic;
-  color: #555555; /* Giving a subtle grey to specialization */
+  color: #555555;
 }
 
 .university {
   margin-bottom: 5px;
-  text-transform: uppercase; /* Making university text uppercase */
-  letter-spacing: 1px; /* Adding some spacing between letters */
-  color: #000000; /* Maintaining a dark color for visibility */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000000;
 }
 
 /* Publication section */
@@ -215,7 +213,7 @@ h2 {
 .pub-year {
   font-size: 1em;
   font-weight: bold;
-  margin-left: 20px; /* Optional: Add space between title and year if needed */
+  margin-left: 20px;
 }
 
 .title-year {
